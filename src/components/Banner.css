@@ -1,0 +1,31 @@
+.banner {
+  background-color: #0b0620;
+  background-image: url("../assets/fundo-banner.jpg");
+  background-size: cover;
+  background-position: center;
+
+  min-height: 450px;
+  padding: 40px 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.banner h1 {
+  font-family: "Orbitron", sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+  color: white;
+  text-shadow: 0 0 10px #00f0ff, 0 0 25px #ff2e93;
+}
+
+.banner p {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 400;
+  font-size: 1.3rem;
+  color: white;
+}

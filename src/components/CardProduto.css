@@ -1,0 +1,60 @@
+.card-produto {
+    background-color: #150d35;
+    border: 2px solid #00f0ff;
+    border-radius: 12px;
+    padding: 16px;
+    width: 250px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 0 15px rgba(0, 240, 255, 0.3);
+
+    display: flex;
+    flex-direction: column;
+}
+
+.card-produto__img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.card-produto__nome {
+    font-family: "Orbitron", sans-serif;
+    font-size: 1rem;
+    margin: 12px 0 6px;
+    min-height: 3.6em;
+}
+
+.card-produto__preco {
+    font-size: 1.3rem;
+    color: #00f0ff;
+    margin: 0 0 12px;
+}
+
+.card-produto__botao {
+    margin-top: auto;
+    align-self: center;
+    background-color: #ff2e93;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 32px;
+    font-family: "Orbitron", sans-serif;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+    box-shadow: 0 0 12px rgba(255, 46, 147, 0.6);
+    transition: transform 0.2s, box-shadow 0.2s, background-color 0.2s;
+}
+
+.card-produto__botao:hover {
+    background-color: #ff5fae;
+    transform: translateY(-2px);
+    box-shadow: 0 0 20px rgba(255, 46, 147, 0.9);
+}
+
+.card-produto__botao:active {
+    transform: translateY(0);
+}
