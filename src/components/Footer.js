@@ -10,17 +10,17 @@ function Footer() {
             <nav className="footer__nav">
                 <ul className="footer__nav-list">
                     <li className="footer__nav-item">
-                        <a href="#" className="footer__nav-link">
+                        <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" className="footer__nav-link">
                             <FaInstagram /> @pressstartstore
                         </a>
                     </li>
                     <li className="footer__nav-item">
-                        <a href="#" className="footer__nav-link">
+                        <a href="https://x.com" target="_blank" rel="noopener noreferrer" className="footer__nav-link">
                             <FaXTwitter /> @pressstartstore
                         </a>
                     </li>
                     <li className="footer__nav-item">
-                        <a href="#" className="footer__nav-link">
+                        <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer" className="footer__nav-link">
                             <FaYoutube /> @pressstartstore
                         </a>
                     </li>
